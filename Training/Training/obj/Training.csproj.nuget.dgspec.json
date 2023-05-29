@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/joshuarincon/Projects/mongo-csharp/Training/Training/Training.csproj": {}
+  },
+  "projects": {
+    "/Users/joshuarincon/Projects/mongo-csharp/Training/Training/Training.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/joshuarincon/Projects/mongo-csharp/Training/Training/Training.csproj",
+        "projectName": "Training",
+        "projectPath": "/Users/joshuarincon/Projects/mongo-csharp/Training/Training/Training.csproj",
+        "packagesPath": "/Users/joshuarincon/.nuget/packages/",
+        "outputPath": "/Users/joshuarincon/Projects/mongo-csharp/Training/Training/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/joshuarincon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
